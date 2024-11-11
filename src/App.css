@@ -1,0 +1,57 @@
+.wrapper,
+.charts-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.charts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8rem;
+  width: 92%;
+  height: auto;
+  padding: 3rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: var(--shadow);
+}
+
+.chart {
+  flex: 1 1 45%;
+  min-width: 300px;
+  margin-bottom: 1rem;
+}
+
+.transaction-table {
+  width: 96%;
+  padding: 0rem 2rem;
+}
+
+@media (max-width: 768px) {
+  .charts-wrapper {
+    width: 86%; /* Full width on smaller screens */
+    padding: 1.5rem;
+    gap: 2rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .chart {
+    flex-basis: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .transaction-table {
+    width: 89%;
+  }
+
+  .transac h2 {
+    font-size: 1.3rem;
+  }
+}

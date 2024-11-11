@@ -1,0 +1,60 @@
+/* General Button Styles */
+.btn {
+  color: var(--theme);
+  text-align: center;
+  margin: 1rem 0rem;
+  font-size: 0.9rem;
+  padding: 0.5rem !important;
+  background-color: #fff;
+  border: 1px solid var(--theme);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+}
+
+.btn:hover {
+  background-color: var(--theme);
+  color: #fff;
+  transition: all 0.3s;
+}
+
+/* Blue Button */
+.btn-blue {
+  background-color: var(--theme);
+  color: #fff;
+}
+
+.btn-blue:hover {
+  background-color: #5813c7 !important;
+  color: #fff !important;
+  transition: all 0.3s;
+}
+
+/* Reset Button Styles (New) */
+.btn-reset {
+  background-color: #ea4144; /* Red color for reset button */
+  color: #fff;
+  width: 100%;
+  font-weight: bold;
+  border: 1px solid #d88687;
+
+  text-align: center;
+  margin: 1rem 0rem;
+  font-size: 0.9rem;
+  padding: 0.5rem !important;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto !important;
+}
+
+.btn-reset:hover {
+  background-color: #c21d1d; /* Lighter red on hover */
+  color: #fff;
+  transition: all 0.3s;
+}
